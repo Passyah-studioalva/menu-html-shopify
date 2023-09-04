@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Price Menu</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-logo">
+        <img src="./burger.svg" alt="burger" width="50px" height="50px" />
+        <p>burger</p>
+      </section>
+
+      <section class="section-title">
+        <h1>menu burger</h1>
+      </section>
+
+      <section class="section-menu">
+        <div class="price-menu">
+          <h3 class="title-menu">burger</h3>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="img-burger">
+          <img
+            src="./hamburger.png"
+            alt="hamburger"
+            width="350px"
+            height="350px"
+          />
+        </div>
+      </section>
+
+      <section class="section-menu">
+        <div class="price-menu">
+          <h3 class="title-menu">big burger</h3>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="img-burger">
+          <img
+            src="./big-burger.png"
+            alt="big-burger"
+            width="350px"
+            height="350px"
+          />
+        </div>
+      </section>
+
+      <section class="section-menu">
+        <div class="price-menu">
+          <h3 class="title-menu">premium</h3>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+          <div class="price-list">
+            <span class="detail-menu">
+              <h4>food name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </span>
+            <span>
+              <p>$9.99</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="img-burger">
+          <img src="./premium.png" alt="premium" width="350px" height="350px" />
+        </div>
+      </section>
+
+      <section class="section-social-media">
+        <a href="https://shopex.id/" target="_blank" rel="noopener noreferrer"
+          >shopex.id</a
+        >
+        <span class="img-social-media">
+          <img
+            src="./instagram.svg"
+            alt="instagram"
+            width="25px"
+            height="25px"
+          />
+          <img src="./facebook.svg" alt="facebook" width="25px" height="25px" />
+          <img src="./twitter.svg" alt="twitter" width="25px" height="25px" />
+          <img src="./whatsapp.svg" alt="whatsapp" width="25px" height="25px" />
+        </span>
+      </section>
+    </main>
+  </body>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Epilogue", sans-serif;
+      overflow-x: hidden;
+    }
+    main {
+      display: flex;
+      background-color: black;
+      justify-content: center;
+      flex-direction: column;
+      gap: 50px;
+      min-height: 100vh;
+      color: white;
+      padding: 50px 100px 100px 50px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* LOGO */
+    .section-logo {
+      display: flex;
+      flex-direction: column;
+      max-width: max-content;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 600;
+      gap: 5px;
+    }
+
+    /* TITLE */
+    .section-title {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 50px;
+    }
+
+    /* MENU */
+    .section-menu {
+      display: flex;
+      gap: 200px;
+      text-transform: uppercase;
+      align-items: center;
+    }
+    .price-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .title-menu {
+      font-size: 30px;
+    }
+    .price-list {
+      display: flex;
+      gap: 100px;
+    }
+    .detail-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    /* SOCIAL MEDIAL */
+    .section-social-media {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+    }
+    .img-social-media {
+      display: flex;
+      gap: 30px;
+    }
+  </style>
+</html>
